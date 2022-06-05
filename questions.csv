@@ -1,0 +1,3 @@
+ID;Text;a1;a2;a3;a4;Answer
+0;Lokalny brak żywotności:;Ma miejsce, gdy kilka procesów wchodzi jednocześnie do sekcji krytycznej;Polega na całkowitym zatrzymaniu pracy części aplikacji współbieżnej;Nie można tego definitywnie stwierdzić przy obserwacji (testowaniu) aplikacji;To sytuacja gdy jeden lub kilka procesów jest wykluczonych, ale nie wiadomo który;a3
+1;Globalny brak żywotności:;występuje wtedy, gdy 2 lub więcej procesów wejdzie do sekcji krytycznej jednocześnie;polega na głodzeniu części procesów;jest mniej groźny w skutkach niż lokalny brak żywotności;powoduje całkowite zatrzymanie części (lub całości) aplikacji;a4
