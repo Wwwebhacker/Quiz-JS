@@ -99,9 +99,11 @@ function addAnswerListners(){
     nextElement.addEventListener("click",()=>{
         if (id<questions.length-1) {
             id++;
-            displayQuestion(questions[id]);
+            
+        }else{
+            id=0;
         }
-        
+        displayQuestion(questions[id]);
     })
 }
 addFormListner();
